@@ -40,7 +40,7 @@ export default async function Home() {
     <Container>
       <section className="py-25 px-8 relative bg-neutral-50 dark:bg-neutral-900 min-h-screen">
         {/* Hero Section */}
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-20">
+        <div className="max-w-4xl mx-auto flex flex-col-reverse md:flex-row items-start md:items-center justify-between gap-8 mb-20">
           <div className="flex flex-col gap-4">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tight text-rose-500">Sahil Khan</h1>
             <p className="text-lg text-neutral-600 dark:text-neutral-300">
