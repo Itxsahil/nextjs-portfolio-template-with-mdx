@@ -59,8 +59,8 @@ export default async function Page({
   })
 
   return (
-    <Container>
-      <article className="py-20 relative bg-neutral-50 dark:bg-neutral-900 text-neutral-800 dark:text-neutral-100">
+    <Container className="min-h-screen bg-neutral-50 dark:bg-neutral-900 text-neutral-800 dark:text-neutral-100">
+      <article className="py-20 ">
         {/* Blog Content */}
         <div
           className="mx-auto prose dark:prose-invert
